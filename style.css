@@ -1,0 +1,27 @@
+body {
+  background-color: beige;
+  color: maroon;
+}
+
+#detail {
+  display: none;
+}
+
+body.-showdetail #master {
+  display: none;
+}
+body.-showdetail #detail {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid 1px maroon;
+}
+tr {
+  border-top: solid 1px maroon;
+}
+th,
+td {
+  border-left: solid 1px maroon;
+}
